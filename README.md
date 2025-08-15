@@ -338,7 +338,7 @@ can be installed via pip: `pip install -r dev_requirements.txt`.
 
 ### Unit Tests
 Running the unit tests is done via a recipe in the `makefile`, the command: `make test`.
-The unit tests are run with [nose](http://nose.readthedocs.io/en/latest/) inside a virtual environment managed
+The unit tests are run with [pytest](https://docs.pytest.org/) inside a virtual environment managed
 by [tox](https://pypi.python.org/pypi/tox). The `test_requirements.txt` contains all the testing dependencies and
 is used to pip install everything needed by the tests in the tox environments (tox installs these dependencies).
 
